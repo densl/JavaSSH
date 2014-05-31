@@ -32,6 +32,9 @@
   .config commit
   git config --global push.default simple 
   
+  .tag
+  git tag -m "message"
+
 
 #add ssh key
 #Creates a new ssh key, using the provided email as a label
