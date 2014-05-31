@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="GBK"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0">
+
+    <description>
+      Servlet Demo1
+    </description>
+    <display-name>Servlet Demo1</display-name>
+
+
+
+
+    <servlet>
+      <servlet-name>sd</servlet-name>
+      <servlet-class>ServletDemo1</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>sd</servlet-name>
+        <url-pattern>/sd1</url-pattern>
+    </servlet-mapping>
+   
+
+</web-app>
