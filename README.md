@@ -1,3 +1,3 @@
-This is an excise for my jsp study.
-Thanks.
+Thanks for reading.
 =====
+This is excise for jsp study.
