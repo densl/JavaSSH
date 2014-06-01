@@ -19,6 +19,12 @@
 	out.println(count++);
 	out.println(info());
 	%>
+	<br/>
+	
+	<%=info()%>
+	<%=count++%>
+	<br/>
+
 	<%
 	out.println("<br/>");
 	out.println("Time is:");
