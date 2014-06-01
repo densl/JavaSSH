@@ -6,7 +6,19 @@
 <body>
 
 	Welcome to study Java Web
+        <br/>
 
+	<%!
+	public int count;
+	public String info(){
+	    return "hello";
+	}
+	%>
+	
+	<%
+	out.println(count++);
+	out.println(info());
+	%>
 	<%
 	out.println("<br/>");
 	out.println("Time is:");
