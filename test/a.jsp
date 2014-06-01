@@ -20,14 +20,31 @@
 	%>
 	
 	<%
-	out.println(count++);
 	out.println(info());
+	out.println(count++);
 	%>
 	<br/>
 	
 	<%=info()%>
 	<%=count++%>
 	<br/>
+
+	<table bgcolor="#9999dd" border="1" width="300px">
+		
+	<%
+	for(int i=0; i<10; i++)
+	{
+	%>
+		<tr>
+			<td>loop value</td>
+			<td><%=i%></td>
+		</tr>
+	<%
+	}
+	%>
+	</table>	
+
+	
 
 	<%
 	out.println("<br/>");
