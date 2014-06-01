@@ -8,10 +8,21 @@
 	Welcome to study Java Web
 
 	<%
-	out.println();
-	out.println("Now time is:");
+	out.println("<br/>");
+	out.println("Time is:");
 	out.println(new java.util.Date());
-       	%>
+	out.println("<br/>");
+	%>
+
+
+	<% for(int i=0; i<7; i++){
+	     out.print("<font size='"+i+"'>");
+	%>
+	  Welcome to java
+        </font>
+        <br/>
+	
+	<% } %>
   
 </body>
 </html>
