@@ -15,6 +15,12 @@
         <br/>
 
 	<%
+		int a=6;
+		int b=0;
+	//	int c=a/b;
+	%>
+
+	<%
 	Class.forName("com.mysql.jdbc.Driver");
 	Connection conn=DriverManager.getConnection(
 	"jdbc:mysql://localhost:3306/db_test", "root", "1234");
