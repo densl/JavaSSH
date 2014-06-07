@@ -16,6 +16,9 @@
 	Welcome to study Java Web
         <br/>
 
+	<jsp:forward page="error.jsp">
+	</jsp:forward>
+
 	<%
 		int a=6;
 		int b=0;
