@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<form id="login" method="post" action="b.jsp">
+<form id="login" method="post" action="submit.jsp">
 	<input type="text" name="username">
 	<input type="submit" value="login">
 </form>
