@@ -1,7 +1,6 @@
 <%@ page contentType="text/html; charset=GBK" language="java" 
-        errorPage="error.jsp" %>
+        errorPage="" %>
 <%@ page import="java.sql.*" %>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -14,9 +13,15 @@
 
 	Welcome to study Java Web b.jsp
         <br/>
+	<jsp:include page="testBean.jsp"/>
 	
+	<%
+	zeng.Mytest b1 = new zeng.Mytest();
+	pageContext.setAttribute("b1", b1);
+	b1.setName("nameb1");
+	%>
+	<%=b1.getName()%><br/>
 
-	<jsp:include page=testBean.jsp/>
 
 	<%
 	Class.forName("com.mysql.jdbc.Driver");
