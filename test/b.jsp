@@ -16,6 +16,8 @@
         <br/>
 	
 
+	<jsp:include page=testBean.jsp/>
+
 	<%
 	Class.forName("com.mysql.jdbc.Driver");
 	Connection conn=DriverManager.getConnection(
@@ -79,7 +81,7 @@
 	%>
 	</table>	
 
-	
+	<jsp:include page="form.jsp"/>	
 
 	<%
 	out.println("<br/>");
