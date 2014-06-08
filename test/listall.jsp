@@ -1,6 +1,5 @@
 <%@ page contentType="text/html; charset=GBK" language="java" 
         errorPage="" %>
-<%@ page import="java.sql.*" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -10,36 +9,18 @@
 	<title>Welcome</title>
 </head>
 <body>
-
-	Welcome to study Java Web b.jsp
+	Welcome to study Java Web listall.jsp
         <br/>
 	<!-- here start test use bean -->
 	<jsp:include page="page\testUseBean.jsp"/>
 	
-	<%
-	%>
 
 	<!-- here start test connect to mysql -->
-	<jsp:include page="page\connectDb.jsp"/>
+	<jsp:include page="page\testConnectDb.jsp"/>
 
 
-
-	<%!
-	public int count;
-	public String info(){
-	    return "hello";
-	}
-	%>
-	
-	<%
-	out.println(info());
-	out.println(count++);
-	%>
-	<br/>
-	
-	<%=info()%>
-	<%=count++%>
-	<br/>
+	<!-- start test jsp method function -->
+	<jsp:include page="page\testMethod.jsp"/>
 
 	<table bgcolor="#9999dd" border="1" width="300px">
 		
