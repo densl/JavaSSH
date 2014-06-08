@@ -26,22 +26,17 @@
 	<!-- start test form -->
 	<jsp:include page="page\testForm.jsp"/>	
 
-	<%
-	out.println("<br/>");
-	out.println("Time is:");
-	out.println(new java.util.Date());
-	out.println("<br/>");
-	%>
+	<!-- start test time -->
+	<%@include file="page\testTime.jsp"%>
 
 
-	<% for(int i=0; i<7; i++){
+	<br/>
+	<% for(int i=3; i<6; i++){
 	     out.print("<font size='"+i+"'>");
 	%>
-	  Welcome to java
-        </font>
-        <br/>
-	
-	<% } %>
+	  Welcome to java</font><br/>
+	<%}%>
+
   
 </body>
 </html>
