@@ -9,7 +9,7 @@
 	ResultSet rs = stmt.executeQuery("select * from tb_test");
 	%>
 
-	<br/>Start connect to mysql db<br/>
+	<br/>Start test mysql db<br/>
 	<table bgcolor="#9999dd" border="1" width="300">
 			<!-- anotation -->
 			<%-- anotation --%>

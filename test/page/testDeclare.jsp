@@ -5,7 +5,7 @@
 	}
 	%>
 	
-	<br/>Start test method<br/>
+	<br/>Start test declare<br/>
 	<%
 	out.println(info());
 	out.println(count++);

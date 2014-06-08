@@ -13,29 +13,16 @@
         <br/>
 	<!-- here start test use bean -->
 	<jsp:include page="page\testUseBean.jsp"/>
-	
 
 	<!-- here start test connect to mysql -->
 	<jsp:include page="page\testConnectDb.jsp"/>
 
+	<!-- start test jsp declare function -->
+	<jsp:include page="page\testDeclare.jsp"/>
 
-	<!-- start test jsp method function -->
-	<jsp:include page="page\testMethod.jsp"/>
+	<!-- start test jsp expression -->
+	<jsp:include page="page\testExpression.jsp"/>
 
-	<table bgcolor="#9999dd" border="1" width="300px">
-		
-	<%
-	for(int i=0; i<10; i++)
-	{
-	%>
-		<tr>
-			<td>loop value</td>
-			<td><%=i%></td>
-		</tr>
-	<%
-	}
-	%>
-	</table>	
 
 	<jsp:include page="form.jsp"/>	
 
