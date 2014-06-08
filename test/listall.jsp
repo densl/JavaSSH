@@ -16,11 +16,7 @@
 	<jsp:include page="testBean.jsp"/>
 	
 	<%
-	zeng.Mytest b1 = new zeng.Mytest();
-	pageContext.setAttribute("b1", b1);
-	b1.setName("nameb1");
 	%>
-	<%=b1.getName()%><br/>
 
 
 	<%

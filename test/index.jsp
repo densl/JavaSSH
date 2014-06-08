@@ -9,6 +9,6 @@
 
 	<br/>
 	<br/>
-	<jsp:include page="listall.jsp"/>
+	<%@include file="listall.jsp"%>
 </body>
 </html>
