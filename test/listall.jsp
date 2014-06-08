@@ -12,7 +12,8 @@
 	Welcome to study Java Web listall.jsp
         <br/>
 	<!-- here start test use bean -->
-	<jsp:include page="page\testUseBean.jsp"/>
+	<%--jsp:include page="page\testUseBean.jsp"/--%>
+	<%@ include file="page\testUseBean.jsp"%>
 
 	<!-- here start test connect to mysql -->
 	<jsp:include page="page\testConnectDb.jsp"/>

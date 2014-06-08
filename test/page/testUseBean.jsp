@@ -12,3 +12,10 @@
 	From bean, age is
 	<jsp:getProperty name="b1" property="age"/>
 	<br/>
+	<%
+	zeng.UseBean p1=new zeng.UseBean("newname", 55);
+	pageContext.setAttribute("p1", p1);
+	p1.setName("pagecontext");
+	%>
+	<%=p1.getName()%><br/>	
+	
