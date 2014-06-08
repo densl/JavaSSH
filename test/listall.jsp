@@ -23,8 +23,8 @@
 	<!-- start test jsp expression -->
 	<jsp:include page="page\testExpression.jsp"/>
 
-
-	<jsp:include page="form.jsp"/>	
+	<!-- start test form -->
+	<jsp:include page="page\testForm.jsp"/>	
 
 	<%
 	out.println("<br/>");

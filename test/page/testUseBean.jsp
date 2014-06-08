@@ -5,7 +5,7 @@
 	<jsp:setProperty name="b1" property="age" value="33"/>
 
 	<br/>
-	Start test bean:<br/>
+	Start test bean<br/>
 	From bean, name is
 	<jsp:getProperty name="b1" property="name"/>
 	<br/>
