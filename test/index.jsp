@@ -1,9 +1,14 @@
-<%@ page contentType="text/html; charset=GBK" language="java" errorPage="" %>
+<%@ page contentType="text/html; charset=GBK" language="java"
+	errorPage="error.jsp" %>
 <html>
 <head>
 	<title>Welcome</title>
 </head>
 <body>
-	This is index.jsp page.
+	<font size =6> This is index.jsp page.</font>
+
+	<br/>
+	<br/>
+	<jsp:include page="listall.jsp"/>
 </body>
 </html>
