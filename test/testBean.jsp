@@ -1,5 +1,5 @@
 <body>
-	<jsp:useBean id="b1" class="zeng.Mytest" scope="page"/>
+	<jsp:useBean id="b1" class="zeng.UseBean" scope="page"/>
 
 	<jsp:setProperty name="b1" property="name" value="name1"/>
 

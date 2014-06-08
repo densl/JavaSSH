@@ -1,17 +1,17 @@
 package zeng;
 
-public class Mytest
+public class UseBean 
 {
 	private String name;
 	private int age;
 	public String ak;
-	public Mytest()
+	public UseBean()
 	{
 		this.name="name";
 		this.age=0xFF;
 	}
 
-	public Mytest(String name, int age)
+	public UseBean(String name, int age)
 	{
 		this.name = name;
 		this.age = age;
