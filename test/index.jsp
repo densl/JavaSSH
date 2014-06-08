@@ -1,5 +1,5 @@
 <%@ page contentType="text/html; charset=GBK" language="java"
-	errorPage="error.jsp" %>
+	errorPage="" %>
 <html>
 <head>
 	<title>Welcome</title>
