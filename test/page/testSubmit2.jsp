@@ -16,7 +16,6 @@
 	username: <%=request.getParameter("username")%>	<br/>
 
 	<%
-	
 	String[] colors = request.getParameterValues("color");
 	out.write("<hr/>color<br/>");
 	if (colors != null)
@@ -43,5 +42,8 @@
 	}
 	%>
 	<hr/>
+	<img src="testImage.jsp"/>
+	<hr/>
+	<%-- jsp:include page="testImage.jsp"/--%>
 </body>
 </html>

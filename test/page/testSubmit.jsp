@@ -18,7 +18,6 @@
 	String username = request.getParameter("username");
 	if (username.equals("zeng"))
 	{
-request.getRequestDispatcher("/page/testImg.jsp").forward(request, response);
 request.getRequestDispatcher("/page/testSubmit2.jsp").forward(request, response);
 	}
 	out.write("<hr/>username<br/>"+username);	
