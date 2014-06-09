@@ -31,16 +31,14 @@
 	  <param-value>1234</param-value>
   </context-param>
 
-<!--  #
+
   <servlet>
-      <servlet-name>sd</servlet-name>
-      <servlet-class>ServletDemo1</servlet-class>
-    </servlet>
-    
-    <servlet-mapping>
-        <servlet-name>sd</servlet-name>
-        <url-pattern>/sd1</url-pattern>
-    </servlet-mapping>
+      <servlet-name>listn</servlet-name>
+      <jsp-file>/listall.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>listn</servlet-name>
+      <url-pattern>/list</url-pattern>
+  </servlet-mapping>
    
--->
 </web-app>
