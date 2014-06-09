@@ -14,6 +14,23 @@
   </welcome-file-list>
 
 
+  <context-param>
+	  <param-name>driver</param-name>
+	  <param-value>com.mysql.jdbc.Driver</param-value>
+  </context-param>
+  <context-param>
+	  <param-name>url</param-name>
+	  <param-value>jdbc:mysql://localhost:3306/db_test</para-value>
+  </context-param>
+  <context-param>
+	  <param-name>user</param-name>
+	  <param-value>root</para-value>
+  </context-param>
+  <context-param>
+	  <param-name>psw</param-name>
+	  <param-value>1234</para-value>
+  </context-param>
+
 <!--  #
   <servlet>
       <servlet-name>sd</servlet-name>
