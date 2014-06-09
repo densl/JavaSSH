@@ -12,23 +12,27 @@
 	Welcome to study Java Web listall.jsp
         <br/>
 	<!-- here start test use bean -->
-	<%--jsp:include page="page\testUseBean.jsp"/--%>
+	<%-- jsp:include page="page\testUseBean.jsp"/ --%>
 	<%@ include file="page\testUseBean.jsp"%>
 
 	<!-- here start test connect to mysql -->
-	<jsp:include page="page\testConnectDb.jsp"/>
-
+	<%-- jsp:include page="page\testConnectDb.jsp"/ --%>
+	<%@ include file="page\testConnectDb.jsp"%>
+	
 	<!-- start test jsp declare function -->
-	<jsp:include page="page\testDeclare.jsp"/>
+	<%-- jsp:include page="page\testDeclare.jsp"/ --%>
+	<%@ include file="page\testDeclare.jsp"%>
 
 	<!-- start test jsp expression -->
-	<jsp:include page="page\testExpression.jsp"/>
+	<%--jsp:include page="page\testExpression.jsp"/ --%>
+	<%@ include file="page\testExpression.jsp"%>
 
 	<!-- start test form -->
-	<jsp:include page="page\testForm.jsp"/>	
+	<%--jsp:include page="page\testForm.jsp"/ --%>
+	<%@ include file="page\testForm.jsp"%>	
 
 	<!-- start test time -->
-	<%@include file="page\testTime.jsp"%>
+	<%@ include file="page\testTime.jsp"%>
 
 
 	<br/>
