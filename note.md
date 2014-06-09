@@ -22,4 +22,12 @@ request:  Object of  HttpServletRequest.
  java.util.Enumeration<String>  getHeaders(String name)
  int  getIntHeader(String name)
  
+ #To get specal character
+  String rawQueryStr=request.getQueryString();
+  String str=java.net.URLDecoder.decode(rawQueryStr, "gbk");
+ #Another way to deal with special character
+  String rawName=request.getParameter("name");
+  byte[] rawBytes=rawName.getBytes("ISO-8859-1");
+  String str=new String(rawBytes, "gb2312");
+
 
