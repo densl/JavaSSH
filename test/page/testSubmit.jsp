@@ -1,6 +1,6 @@
 <%@ page contentType="text/html; charset=GBK" language="java" 
         errorPage="error.jsp" %>
-<%@ page import="java.sql.*" %>
+<%@ page import="java.util.*" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -29,7 +29,16 @@
 	String country = request.getParameter("country");
 	out.write("country "+country);	
 	%>
-	
-
+	<hr/>
+	<%
+	Enumeration<String> headerNames= request.getHeaderNames();
+	while (headerNames.hasMoreElements())
+	{
+		String headerName = headerNames.nextElement();
+		out.println(headerName+"  -->  " +
+			request.getHeader(headerName)+"<br/>");
+	}
+	%>
+	<hr/>
 </body>
 </html>
