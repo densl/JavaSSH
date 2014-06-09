@@ -16,9 +16,9 @@
 
 	country<br/>
 	<select name="country">
-		<option value="Chinav">China</option>
-		<option value="Americav">America</option>
-		<option value="Englandv">England</option>
+		<option value="China">China</option>
+		<option value="America">America</option>
+		<option value="England">England</option>
 	</select><hr/>
 
 	<input type="submit" value="login">
