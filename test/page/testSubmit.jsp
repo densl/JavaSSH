@@ -14,7 +14,6 @@
         This is submit page. <br/>
 	<hr/>
 
-	<img src="/page/testImg.jsp">
 	<%
 	String username = request.getParameter("username");
 	if (username.equals("zeng"))
