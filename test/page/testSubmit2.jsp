@@ -8,19 +8,15 @@
 
 <html>
 <head>
-	<title>Welcome to submit.jsp</title>
+	<title>Welcome to submit2.jsp</title>
 </head>
 <body>
-        This is submit page. <br/>
+        This is submit2 page. <br/>
 	<hr/>
+	username: <%=request.getParameter("username")%>	<br/>
 
 	<%
-	String username = request.getParameter("username");
-	if (username.equals("zeng"))
-	{
-request.getRequestDispatcher("/page/testSubmit2.jsp").forward(request, response);
-	}
-	out.write("<hr/>username<br/>"+username);	
+	
 	String[] colors = request.getParameterValues("color");
 	out.write("<hr/>color<br/>");
 	if (colors != null)
