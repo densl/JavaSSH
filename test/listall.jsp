@@ -10,7 +10,10 @@
 </head>
 <body>
 	Welcome to study Java Web listall.jsp
-        <br/>
+	<br/>
+
+	
+	<%-- %=3/0 --%>
 	<!-- here start test use bean -->
 	<%-- jsp:include page="page\testUseBean.jsp"/ --%>
 	<%@ include file="page\testUseBean.jsp"%>

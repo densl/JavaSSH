@@ -11,7 +11,12 @@
 <body>
 	<!-- annotation -->
 	<%-- annotation --%>
-	There's something wrong.<br/>
+	There's something wrong.<br/><br/>
+
+	Error Type:
+	<%=exception.getClass()%><br/>
+	Error Msg :
+	<%=exception.getMessage()%><br/>
 </body>
 </html>
 
