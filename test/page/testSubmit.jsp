@@ -47,5 +47,10 @@ request.getRequestDispatcher("/page/testSubmit2.jsp").forward(request, response)
 	}
 	%>
 	<hr/>
+	<%-- input type="button" value="img" onclick="sd"--%>
+	<form method="post" action="testImage.jsp">
+		<input type="submit" value="img">
+	</form>
+	<hr/>
 </body>
 </html>
