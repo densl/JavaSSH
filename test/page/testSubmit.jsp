@@ -11,13 +11,25 @@
 	<title>Welcome to submit.jsp</title>
 </head>
 <body>
-        <hr/>
-	<%=request.getParameter("username")%>	
+        This is submit page. <br/>
+	<hr/>
+	username: <%=request.getParameter("username")%>	<br/>
+
 	<%
 	String[] colors = request.getParameterValues("color");
+	out.write("<hr/>color<br/>");
 	for(String i :colors)
 		out.write(i+"<br/>");
+	
+	out.write("<hr/>");
+	String sex = request.getParameter("sex");
+	out.write("sex  "+sex+"<br/>");
+
+	out.write("<hr/>");
+	String country = request.getParameter("country");
+	out.write("country "+country);	
 	%>
+	
 
 </body>
 </html>
