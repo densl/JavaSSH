@@ -20,15 +20,15 @@
   </context-param>
   <context-param>
 	  <param-name>url</param-name>
-	  <param-value>jdbc:mysql://localhost:3306/db_test</para-value>
+	  <param-value>jdbc:mysql://localhost:3306/db_test</param-value>
   </context-param>
   <context-param>
 	  <param-name>user</param-name>
-	  <param-value>root</para-value>
+	  <param-value>root</param-value>
   </context-param>
   <context-param>
 	  <param-name>psw</param-name>
-	  <param-value>1234</para-value>
+	  <param-value>1234</param-value>
   </context-param>
 
 <!--  #
