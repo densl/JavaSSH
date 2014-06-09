@@ -15,6 +15,7 @@
 	<hr/>
 	username: <%=request.getParameter("username")%>	<br/>
 
+	<jsp:include page="\page\testImg.jsp"/>
 	<%
 	
 	String[] colors = request.getParameterValues("color");
