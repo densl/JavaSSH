@@ -9,4 +9,17 @@ For a jsp page:
     \classes\"package"\*.class
 
 
+Jsp
+request:  Object of  HttpServletRequest.
+ #for parameter
+ String  getParameter(String paramName)
+ Map  getParameterMap()
+ Enumeration  getParameterNames()
+ String[]  getParameterValues(String name)
+ #for visit header
+ String  getHeader(String name)
+ java.util.Enumeration<String>  getHeaderNames()
+ java.util.Enumeration<String>  getHeaders(String name)
+ int  getIntHeader(String name)
+ 
 
