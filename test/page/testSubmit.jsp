@@ -11,41 +11,13 @@
 	<title>Welcome to submit.jsp</title>
 </head>
 <body>
-
-        <br/>
+        <hr/>
 	<%=request.getParameter("username")%>	
 	<%
+	String[] colors = request.getParameterValues("color");
+	for(String i :colors)
+		out.write(i+"<br/>");
 	%>
-
-	<%
-	Class.forName("com.mysql.jdbc.Driver");
-	Connection conn=DriverManager.getConnection(
-	"jdbc:mysql://localhost:3306/db_test", "root", "1234");
-
-	Statement stmt = conn.createStatement();
-	ResultSet rs = stmt.executeQuery("select * from tb_test");
-	%>
-
-	<table bgcolor="#9999dd" border="1" width="300">
-
-	<%
-	while(rs.next())
-	{
-	%>
-		<tr>
-			<!-- anotation -->
-			<%-- anotation --%>
-                <td>
-			<%=rs.getString(1)%>
-		</td>
-		<td>
-			<%=rs.getString(2)%>
-		</td>
-		</tr>
-	<%
-	}
-	%>
-		
 
 </body>
 </html>
