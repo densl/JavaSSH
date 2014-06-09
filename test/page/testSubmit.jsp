@@ -16,13 +16,16 @@
 	username: <%=request.getParameter("username")%>	<br/>
 
 	<%
+	
 	String[] colors = request.getParameterValues("color");
 	out.write("<hr/>color<br/>");
+	if (colors != null)
 	for(String i :colors)
 		out.write(i+"<br/>");
 	
 	out.write("<hr/>");
 	String sex = request.getParameter("sex");
+	if (sex != null)
 	out.write("sex  "+sex+"<br/>");
 
 	out.write("<hr/>");
