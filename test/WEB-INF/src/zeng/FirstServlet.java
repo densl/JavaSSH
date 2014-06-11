@@ -1,7 +1,10 @@
 package zeng;
+import java.io.*;
+import javax.servlet.http.*;
+import javax.servlet.annotation.*;
 
-@WebServlet(name="firstservlet", urlPatterns="/firstservlet")
 
+@WebServlet(name="firstservlet", urlPatterns={"/firstservlet"})
 public class FirstServlet extends HttpServlet
 {
   public void service(HttpServletRequest request,
