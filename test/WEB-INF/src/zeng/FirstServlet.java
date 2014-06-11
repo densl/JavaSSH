@@ -1,6 +1,6 @@
 package zeng;
-@WebServlet(name="FirstServlet", urlPatterns={"/firstServlet"})
-import javax.servlet.http.Request;
+
+@WebServlet(name="firstservlet", urlPatterns="/firstservlet")
 
 public class FirstServlet extends HttpServlet
 {
