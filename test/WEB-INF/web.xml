@@ -40,5 +40,14 @@
       <servlet-name>listn</servlet-name>
       <url-pattern>/list</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>servlet test2</servlet-name>
+      <servlet-class>zeng.SecondServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>sedcond</servlet-name>
+      <url-pattern>/setcond</url-pattern>
+  </servlet-mapping>
    
 </web-app>
