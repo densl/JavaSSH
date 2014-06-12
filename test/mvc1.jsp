@@ -14,6 +14,8 @@
 	Welcome to jsp login page <br/><hr/>
 
 <span style="color:red;font-weight:bold">
+	<%=request.getAttribute("str")%>
+	
 </span>
 
 <form id="login" method="post" action="login">
