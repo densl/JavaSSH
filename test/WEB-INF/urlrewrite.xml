@@ -4,8 +4,8 @@
 
 <urlrewrite>
 	<rule>
-		<from>/start.html</form>
-		<to type="forward">/index.jsp</to>
+		<from>/(\w*).html</from>
+		<to type="forward">/$1.jsp</to>
 	</rule>
 </urlrewrite>
 
